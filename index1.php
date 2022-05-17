@@ -1,6 +1,5 @@
 <?php  include('header.php')?>
     
-<!--- test comment --->
                               <form action="insert_data.php" method="post" enctype="multipart/form-data">
 			    					<div >
 			               student_name: <input type="text" name="name"  placeholder="First Name">

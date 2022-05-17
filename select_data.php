@@ -54,15 +54,15 @@
     <td><?php    echo $select['student_password'] ; ?></td>
     <td><?php    echo $select['phone_number'] ; ?></td>
     <td><?php    echo $select['student_adderss'] ; ?></td>
-    <td><?php    echo $select['stdudent_subject'] ; ?></td>
+    <td><?php    echo $select['stdudent_subject'] ; ?>3</td>
     <td><?php    echo $select['gander'] ; ?></td>
     <td><?php    echo $select['student_time'] ; ?></td>
     <td><?php    echo $select['your_opinion'] ; ?></td>
     <td><?php    echo $select['select_area'] ; ?></td>
     <td><img style="width:100px; padding:10px;" src="image/<?php echo $select['student_profile'] ; ?>" alt="user profile" /></td>
     <td><a href="view_details.php?customer_id=<?php echo $select['id']; ?>" >Customer Dtails</a>
-  <a href="" name="update">update</a>
-<a href="">delete</a></td>
+  <a href="update_data.php?update_id=<?php echo $select['id']; ?>">update</a>
+<a href="delete_data.php?id=<?php echo $select['id']; ?>">delete</a></td>
   </tr>
    
 
