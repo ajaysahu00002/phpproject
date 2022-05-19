@@ -3,8 +3,8 @@
 include("includes/connection.php");
 include("includes/allfunction.php");
 
-$id =$_GET['editid'];
-$data = selectdatabyid("registration",$id);
+$xyz =$_GET['editid'];
+$data = selectdatabyid("registration",$xyz);
 
 if(isset($_POST['submit']))
 {
@@ -16,7 +16,7 @@ if(isset($_POST['submit']))
 				"message"=>"'".$_POST['message']."'"
 				);
 	  
-	  update($data,'registration',$id);
+	  update($data,'registration',$xyz); 
 	
 	header("location:listing.php");
 	

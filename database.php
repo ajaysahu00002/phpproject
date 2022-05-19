@@ -5,10 +5,10 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "student"; 
+$dbname = "crud"; 
 //creat conection
 
- 
+
 $connection= new mysqli($servername, $username, $password, $dbname);
 //check conection
 
@@ -22,5 +22,5 @@ else {
     }
 
 
-   
+
 ?>
