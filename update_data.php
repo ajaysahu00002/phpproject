@@ -109,7 +109,7 @@ if($fullnam !="" && $fathername !="" && $email !="" && $password !="" && $phonen
 if (mysqli_query($connection,$sql))
 {
        
-header('location','select_data.php') 
+header('location','select_data.php') ;
 }
 
 

@@ -4,6 +4,7 @@
 
 <section class="viewdetails">
     <?php 
+	include_once ("database.php");
     echo $customer_details = $_GET['customer_id'];
     
      $sql = "SELECT * FROM student_details where id ='".$customer_details."'";

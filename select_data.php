@@ -62,7 +62,7 @@
     <td><img style="width:100px; padding:10px;" src="image/<?php echo $select['student_profile'] ; ?>" alt="user profile" /></td>
     <td><a href="view_details.php?customer_id=<?php echo $select['id']; ?>" >Customer Dtails</a>
   <a href="update_data.php?update_id=<?php echo $select['id']; ?>">update</a>
-<a href="delete_data.php?id=<?php echo $select['id']; ?>">delete</a></td>
+<a href="delete_data.php?delid=<?php echo $select['id']; ?>">delete</a></td>
   </tr>
    
 
