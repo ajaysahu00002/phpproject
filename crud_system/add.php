@@ -4,11 +4,18 @@ include("includes/connection.php");
 include("includes/allfunction.php");
 
 if(isset($_POST['submit']))
-{
+{     
+$date = date('Y-m-d');
+$time = date('H:i:s');
+ date_default_timezone_set("Asia/Calcutta"); 
 	 $data=array(
 				"name"=>"'".$_POST['name']."'",
 				"email"=>"'".$_POST['email']."'",
-				"mobile"=>"'".$_POST['mobile']."'"
+				"mobile"=>"'".$_POST['mobile']."'",
+				"reg_time"=>"'".$time."'",
+				"reg_date"=>"'".$date."'",
+				
+				
 				);
 	  
 	  insert($data,'registration');

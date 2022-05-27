@@ -30,10 +30,10 @@
 			$values .= $value;
 		}
 		
-		//echo $columns;
-		//echo $values;
+		echo $columns;
+		echo $values;
 		
-	$insert=("INSERT INTO $table ($columns) VALUES ($values)");
+	echo $insert=("INSERT INTO $table ($columns) VALUES ($values)");
 	//echo $insert;
 	mysqli_query($GLOBALS['connect'],$insert);
    }
