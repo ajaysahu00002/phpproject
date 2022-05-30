@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="discription" content="FREE Web Tutorial">
+    <meta name="keyword" content="HTML,CSS,Javascript">
+    <meta name="author" content="Jhon Joe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <title>Vendor Login</title>
+	<style>
+	.body-bg {
+    background: url(assets/img/login-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+.login-box {
+    background-color: rgba(255,255,255,.2);
+    padding: 15px;
+}
+section.mzd-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+form.form-box .form-control {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    background-color: #fff;
+    background-clip: unset;
+    border: 0px;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group.loginbtn-wrapper {
+    padding-top: 15px;
+}
+.form-control:focus {
+   
+    box-shadow: unset;
+}
+a.logo img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.form-group label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+button.btn.btn-primary.my-btn {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #159b48;
+    border-color: #159b48;
+    text-transform: uppercase;
+}
+	</style>
+<body class="body-bg">
+<!-- login-box end -->
+<section class="mzd-login" style="background-image:">
+<div class="container">
+        <div class="login-box">
+            <a class="logo" href="JavaScript:void(0)"><img src="assets/img/plug-logo.png" alt=""></a>
+            
+<form action="/" class="form-box" method="post"><input name="__RequestVerificationToken" type="hidden" value="1naQBgNhcRTOY0sAmlT0JUlDSWhTuEMp9sRTMfCCp6kK8pCNLe0lbwdqsnxt7UmGzGzBpEWnNe7KziUSl29eUy3P5kUYGY8NKluLXx2t3yE1">            <div ng-app="login" ng-controller="validateCtrl" class="ng-scope">
+                <div class="form-group">
+                    <label>Username <span class="star">*</span></label>
+                    <input class="form-control" data-val="true" data-val-required="Username is required." id="Username" name="Username" type="text" value="">
+                    <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+                </div>
+                <div class="form-group">
+                    <label>Password<span class="star">*</span></label>
+                    <input class="form-control" data-val="true" data-val-required="Password is required." id="Password" name="Password" type="password">
+                    <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+
+                </div>
+
+
+                
+                <div class="form-group loginbtn-wrapper" style="margin-bottom: 0;">
+
+                    <button type="submit" class="btn btn-primary my-btn">Login</button>
+                </div>
+            </div>
+</form>        </div> 
+</div>
+<!-- login-box end -->
+    </section>
+ </body>
+</html>
