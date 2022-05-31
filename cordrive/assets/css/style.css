@@ -7,6 +7,143 @@ h1,h2,h3,h4,h5.h6{font-family: monteserrat;}
   width: 28px;
   margin: 0px;
 }
+
+
+p.address-area-contentcolor {
+    font-size: 12px;
+    color: #ffffff;
+	width: 75%;
+    text-transform: capitalize;
+}
+.rreached-passenger-pickup {
+       position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    padding: 5px;
+    right: 10px;
+    background-color: #f7d528;
+}
+.rreached-passenger-pickup-no.show {
+    position: absolute;
+    bottom: 54px;
+    background-color:  hsl(31deg 100% 50%);;
+    left: 0;
+    right: 0;
+	text-align:center;
+}
+.modal-content-margintop {
+    background-color: #ffffff;
+    margin-top: 230px;
+}
+.modal-header-backgroundcolor {
+    background-color:  #009900;
+    madding: 30px 22px;
+}
+input.numbersystem {
+    border: 0px;
+    border-bottom: 2px solid forestgreen;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+button.btn-buttoncolor {
+    text-transform: uppercase;
+    background-color: #009900;
+    border: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    width: 84%;
+    margin-right: 25px;
+    padding: 6px 0px;
+}
+body.colorgrey {
+    background-color: gray;
+}
+.guest-details-wrraper-insidebox {
+    background-color: #f90101;
+    
+}
+.bagckcolorgrey {
+    box-shadow: 0px 0px 3px 0px inset #999999;
+    padding: 5px;
+}
+.poupclass {
+    padding: 13px 0px;
+}
+.poupclass h4 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+.rreached-passenger-pickup-no.show a{
+    color: #ffffff;
+    line-height: 35px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monserrant;
+}
+.rreached-passenger-pickup-for-visit {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    background-color: hsl(120deg 100% 30%);
+    right: 0;
+	text-align: center;
+}
+.rreached-passenger-pickup-for-visit a {
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 36px;
+    font-family: monserrant;
+    font-size: 20px;
+	font-weight:5000
+}
+.body-color {
+    background-color: #ffffff;
+}
+.rreached-passenger-pickup  a{font-size:14px; line-height:normal; text-decoration:none; color:#ffffff; text-transform:capitalize;}
+.refresh-map-location {
+    background-color: #f7d518;
+    text-align: center;
+    margin-top:5px;
+    padding: 8px;
+}
+.guest-locationmap {
+    position: relative;
+}
+.guest-locationmap iframe {
+    width: 100%;
+    height: 100vh;
+}
+.refresh-map-location a{font-size:14px; line-height:normal; text-decoration:none; color:#ffffff; text-transform:capitalize;}
+h4.text-title-contentcolor {
+    color: #ffffff;
+    font-size: 12px;
+	text-transform:capitalize;
+}
+span.text-rgt-contentcolor {
+    font-size: 12px;
+    color: #ffffff;
+	text-transform:capitalize;
+}
+p.text-rgt-contentcolor {
+    color: #ffffff;
+    font-size: 12px;
+	width:80%;text-transform:capitalize;
+}
+span.text-title-white {
+    color: #ffffff;
+    font-size: 14px;
+	text-transform:capitalize;
+}
+.guest-details-wrraper{
+    background-color: #009900;
+}
   .switch input {
     display:none;
   }
@@ -106,7 +243,7 @@ h1.driver-heading {
 .paragraph-content p {
   color: #ffffff;
   margin: 0px;
-  line-height: 10px;
+  line-height: 12px;
   text-transform: capitalize;
   font-weight: 400;
   font-size: 10px;
@@ -231,7 +368,7 @@ p.text-title {
   display: initial;
 }
 p.text-title {
-  font-size: 10px;
+  font-size: 12px;
   text-transform: capitalize;
 }
 h4.text-title {
@@ -242,7 +379,7 @@ h4.text-title {
   color: #4da3c5;
 }
 p.text-rgt-boldheading span {
-  font-size: 10px;
+  font-size: 12px;
 }
 span.text-rgt a {
   color: #3d52b3;
@@ -253,11 +390,11 @@ p.text-rgt {
 }
 p.text-rgt-boldheading strong {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
 }
 p.address-area {
   text-transform: capitalize;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 13px;
   padding-bottom: 10px;
@@ -265,7 +402,7 @@ p.address-area {
 button.btn.manage-button {
   color: #009900;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   border: 2px solid #009900;
   padding: 6px 15px;
@@ -282,15 +419,16 @@ button.btn.manage-button:hover{
   padding-bottom: 6px;
 }
 .duties-title h1 {
-  text-align: center;
-  font-size: 14px;
-  padding: 7px 0px;
-  margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px 0px;
+    margin: 0px;
+    font-family: 'Roboto Slab';
 }
 .content-duties p {
   text-align: center;
   text-transform: capitalize;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 .duties-button {
@@ -300,7 +438,7 @@ button.btn.manage-button:hover{
 button.btn.duty-btn {
   border: 2px solid #009900;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
  width: 61%
 }
@@ -318,6 +456,55 @@ button.btn.manage-button.deflautbgcolor {
 
 button.btn.duty-btn.deflautcolor {
   background-color: #fe9494;
-  border-radius: 10px;
   border: 2px solid#fe9494 ;
+}
+.body-bg {
+    background: url(../../assets/img/login-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+.login-box {
+    background-color: rgba(255,255,255,.2);
+    padding: 15px;
+}
+section.mzd-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+form.form-box .form-control {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    background-color: #fff;
+    background-clip: unset;
+    border: 0px;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group.loginbtn-wrapper {
+    padding-top: 15px;
+}
+.form-control:focus {
+   
+    box-shadow: unset;
+}
+a.logo img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.form-group label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+button.btn.btn-primary.my-btn {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #159b48;
+    border-color: #159b48;
+    text-transform: uppercase;
 }
